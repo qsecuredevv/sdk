@@ -1,0 +1,17 @@
+{
+  "name": "qsecure",
+  "version": "0.1.0",
+  "description": "Cryptographically attested, future-proof secure infrastructure",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
